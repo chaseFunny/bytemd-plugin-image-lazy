@@ -1,0 +1,23 @@
+{
+  "name": "bytemd-plugin-image-lazy",
+  "version": "1.0.0",
+  "description": "Lazy load images in bytemd",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "https://luckysnail.cn",
+  "author": "luckySnail",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@total-typescript/tsconfig": "^1.0.4",
+    "bytemd": "^1.21.0",
+    "typescript": "^5.7.2"
+  }
+}
